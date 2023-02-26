@@ -11,3 +11,17 @@
   margin-right: 79px;
   margin-top: 53px;
 }
+@media screen and (max-width: 800px) {
+  .block6__title{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .block6__title{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

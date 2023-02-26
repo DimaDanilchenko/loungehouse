@@ -14,3 +14,9 @@
 .block6-text__text:nth-child(4){
   margin-top: 30px;
 }
+@media screen and (max-width: 500px) {
+  .block6-text__text{
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

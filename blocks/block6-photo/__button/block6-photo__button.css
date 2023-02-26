@@ -17,3 +17,8 @@
 .block6-photo__button:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 750px) {
+  .block6-photo__button{
+    margin-bottom: 30px;
+  }
+}
