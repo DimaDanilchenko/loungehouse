@@ -82,6 +82,16 @@
   transition-duration: .25s;
   overflow-y: scroll;
 }
+@media screen and (max-width: 768px) {
+  .menu__box{
+    margin-top: 88px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .menu__box{
+    margin-top: 70px;
+  }
+}
 
 .menu__item {
   display: block;

@@ -11,3 +11,10 @@
     margin: 0;
   }
 }
+@media screen and (max-width: 425px) {
+  .header__link {
+    width: 100px;
+    height: 70px;
+    margin: 0;
+  }
+}
