@@ -8,3 +8,15 @@
   color: #000000;
   margin-top: 20px;
 }
+@media screen and (max-width: 450px) {
+  .block4-grid__subtitle{
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .block4-grid__subtitle{
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

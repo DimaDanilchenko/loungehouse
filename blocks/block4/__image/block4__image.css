@@ -13,6 +13,42 @@
 .block4__image2{
   width: 40px;
   height: 64px;
-  margin-right: 122px;
+  margin-right: 124px;
   margin-left: 50px;
+}
+@media screen and (max-width: 570px) {
+  .block4__image{
+    margin-right: 40px;
+  }
+  .block4__image1{
+    margin-right: 60px;
+  }
+  .block4__image2{
+    margin-right: 62px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .block4__image{
+    margin-left: 20px
+  }
+  .block4__image1{
+    margin-left: 20px;
+  }
+  .block4__image2{
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .block4__image{
+    margin-left: 10px;
+    margin-right: 4px;
+  }
+  .block4__image1{
+    margin-left: 10px;
+    margin-right: 22px;
+  }
+  .block4__image2{
+    margin-left: 10px;
+    margin-right: 24px;
+  }
 }

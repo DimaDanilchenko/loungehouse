@@ -25,7 +25,7 @@
     line-height: 54px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .block1__title{
     width: calc(100% - 2*20px);
     font-size: 30px;

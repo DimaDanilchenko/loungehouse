@@ -21,3 +21,8 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
+@media screen and (max-width: 400px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}

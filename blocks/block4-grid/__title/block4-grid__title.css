@@ -7,3 +7,9 @@
   line-height: 34px;
   color: #000000;
 }
+@media screen and (max-width: 450px) {
+  .block4-grid__title{
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
