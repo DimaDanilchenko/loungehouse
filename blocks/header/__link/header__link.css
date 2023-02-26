@@ -1,5 +1,13 @@
-.header__link{
+.header__link {
   width: 166px;
   height: 132px;
   margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__link {
+    width: 120px;
+    height: 90px;
+    margin: 0;
+  }
 }

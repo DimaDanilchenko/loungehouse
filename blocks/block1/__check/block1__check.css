@@ -1,0 +1,7 @@
+.block1__check{
+  margin-top: 292px;
+  z-index: 2;
+}
+.block1__check:hover{
+  cursor: pointer;
+}

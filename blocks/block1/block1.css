@@ -1,0 +1,16 @@
+.block1{
+  height: 985px;
+  max-width: 1728px;
+  background-image: url(../../image/block1fon.png);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .block1{
+
+  }
+}

@@ -2,3 +2,18 @@
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .header__text{
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 566px) {
+  .header__text{
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 456px) {
+  .header__text{
+    margin-right: 20px;
+  }
+}

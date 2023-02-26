@@ -8,3 +8,15 @@
   line-height: 39px;
   text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+  .header__email{
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 566px) {
+  .header__email{
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
