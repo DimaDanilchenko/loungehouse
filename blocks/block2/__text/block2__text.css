@@ -1,0 +1,16 @@
+.block2__text {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+@media screen and (max-width: 425px) {
+  .block2__text{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+  }
+}

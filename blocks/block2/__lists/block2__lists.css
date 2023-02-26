@@ -1,0 +1,12 @@
+.block2__lists{
+  width: calc(100% - 48*2px);
+  margin: 46px;
+  padding: 0;
+}
+@media screen and (max-width: 425px) {
+  .block2__lists{
+    margin: 0 auto;
+    margin-top: 26px;
+    width: calc(100% - 2*20px);
+  }
+}
