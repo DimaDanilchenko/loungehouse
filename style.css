@@ -6,6 +6,8 @@
   display: flex;
   align-items: center;
   margin-right: 50px;
+  width: 46px;
+  height: 37px;
 }
 @media screen and (max-width: 456px) {
   .hamburger-menu{
