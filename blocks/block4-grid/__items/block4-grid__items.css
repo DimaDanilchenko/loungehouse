@@ -1,0 +1,15 @@
+.block4-grid__items{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1050px) {
+  .block4-grid__items{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

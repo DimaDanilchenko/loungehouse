@@ -1,0 +1,11 @@
+.photo-grid__item {
+  width: 432px;
+  height: 285px
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid__item{
+        min-width: 300px;
+    }
+}
+

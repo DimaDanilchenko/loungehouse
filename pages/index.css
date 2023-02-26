@@ -26,3 +26,20 @@
 @import url(../blocks/block2/__list/block2__list.css);
 @import url(../blocks/block2/__lists/block2__lists.css);
 @import url(../blocks/block2/__text/block2__text.css);
+
+@import url(../blocks/block3/block3.css);
+@import url(../blocks/block3/__title/block3__title.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__items/photo-grid__items.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/block4/block4.css);
+@import url(../blocks/block4/__title/block4__title.css);
+@import url(../blocks/block4/__subtitle/block4__subtitle.css);
+@import url(../blocks/block4-grid/block4-grid.css);
+@import url(../blocks/block4-grid/__items/block4-grid__items.css);
+@import url(../blocks/block4-grid/__item/block4-grid__item.css);
+@import url(../blocks/block4-grid/__text/block4-grid__text.css);
+@import url(../blocks/block4-grid/__title/block4-grid__title.css);
+@import url(../blocks/block4-grid/__subtitle/block4-grid__subtitle.css);
+@import url(../blocks/block4/__image/block4__image.css);
