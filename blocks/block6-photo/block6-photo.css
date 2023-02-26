@@ -1,0 +1,6 @@
+.block6-photo{
+display: flex;
+flex-direction: column;
+margin-right: 75px;
+align-items: center;
+}

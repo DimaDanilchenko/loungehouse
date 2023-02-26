@@ -48,3 +48,17 @@
 @import url(../blocks/block5/__container/block5__container.css);
 @import url(../blocks/block5/__title/block5__title.css);
 @import url(../blocks/block5/__text/block5__text.css);
+
+@import url(../blocks/block6/block6.css);
+@import url(../blocks/block6/__container/block6__container.css);
+@import url(../blocks/block6/__title/block6__title.css);
+
+@import url(../blocks/block6-photo/block6-photo.css);
+@import url(../blocks/block6-photo/__image/block6-photo__image.css);
+@import url(../blocks/block6-photo/__picture/block6-photo__picture.css);
+@import url(../blocks/block6-photo/__pictures/block6-photo__pictures.css);
+@import url(../blocks/block6-photo/__button/block6-photo__button.css);
+
+@import url(../blocks/block6-text/block6-text.css);
+@import url(../blocks/block6-text/__title/block6-text__title.css);
+@import url(../blocks/block6-text/__text/block6-text__text.css);
