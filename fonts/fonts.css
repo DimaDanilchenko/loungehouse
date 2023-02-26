@@ -1,34 +1,20 @@
 @font-face {
-  font-family: 'Ebgaramond';
+  font-family: 'Inter';
   font-weight: 400;
-  src: url(../fonts/ebgaramond/EBGaramond-Regular.woff2) format('woff2'),
-  url(../fonts/ebgaramond/EBGaramond-Regular.woff) format('woff');
+  src: url(../fonts/Inter/Inter-Regular.woff2) format('woff2'),
+  url(../fonts/Inter/Inter-Regular.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Ebgaramond';
-  font-weight: 500;
-  src: url(../fonts/ebgaramond/EBGaramond-Medium.woff2) format('woff2'),
-  url(../fonts/ebgaramond/EBGaramond-Medium.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Ebgaramond';
-  font-weight: 600;
-  src: url(../fonts/ebgaramond/EBGaramond-SemiBold.woff2) format('woff2'),
-  url(../fonts/ebgaramond/EBGaramond-SemiBold.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Ebgaramond';
+  font-family: 'Inter';
   font-weight: 700;
-  src: url(../fonts/ebgaramond/EBGaramond-Bold.woff2) format('woff2'),
-  url(../fonts/ebgaramond/EBGaramond-Bold.woff) format('woff');
+  src: url(../fonts/Inter/Inter-Bold.woff2) format('woff2'),
+  url(../fonts/Inter/Inter-Bold.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Ebgaramond';
-  font-weight: 800;
-  src: url(../fonts/ebgaramond/EBGaramond-ExtraBold.woff2) format('woff2'),
-  url(../fonts/ebgaramond/EBGaramond-Bold.woff) format('woff');
+  font-family: 'Inter';
+  font-weight: 900;
+  src: url(../fonts/Inter/Inter-Black.woff2) format('woff2'),
+  url(../fonts/Inter/Inter-Black.woff) format('woff');
 }
