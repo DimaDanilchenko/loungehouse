@@ -1,0 +1,23 @@
+.block5__text {
+  margin: 0 auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-top: 75px;
+  width: calc(100% - 2*22px);
+}
+.block5__text:first-child{
+  margin-top: 25px;
+}
+.block5__text:last-child{
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 450px) {
+  .block5__text{
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

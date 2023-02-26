@@ -1,0 +1,9 @@
+.block5{
+  background-color: white;
+}
+@media screen and (max-width: 450px) {
+  .block5{
+    width: calc(100% - 10*2px);
+    margin: 0 auto;
+  }
+}
