@@ -1,0 +1,7 @@
+.sale {
+  width: 423px;
+  height: 586px;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0px 1px 50px 10px rgba(255, 255, 255, 0.25);
+  border-radius: 48px;
+}

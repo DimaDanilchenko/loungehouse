@@ -1,0 +1,8 @@
+.price__line2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  gap: 10px;
+  width: calc(100% - 16*2px);
+  margin: 0 auto;
+}

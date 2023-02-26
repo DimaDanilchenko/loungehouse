@@ -1,0 +1,10 @@
+.price__line1_right {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #FFAC0A;
+  max-width: 98px;
+}

@@ -1,0 +1,20 @@
+.sale__line1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 18*2px);
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.sale__line1:nth-child(4){
+  margin-top: 47px;
+}
+.sale__line1:nth-child(6){
+  margin-top: 15px;
+}
+.sale__line1:nth-child(8){
+  margin-top: 15px;
+}
+.sale__line1:nth-child(10){
+  margin-top: 15px;
+}
