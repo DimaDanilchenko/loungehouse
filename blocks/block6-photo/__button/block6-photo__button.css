@@ -1,6 +1,6 @@
 .block6-photo__button {
   margin-top: 52px;
-  background: #124093;
+  background: white;
   border-radius: 32px;
   border: none;
   width: 284px;
@@ -11,7 +11,7 @@
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: black;
 }
 
 .block6-photo__button:hover {

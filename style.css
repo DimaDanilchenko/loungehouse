@@ -250,20 +250,29 @@
 .live__items {
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
 }
 
 .live__items-image {
+  width: 72px;
+  height: 108px;
+  margin-right: 28px;
+  object-fit: contain;
+  object-position: center;
+}
+.live__items-image2 {
   width: 64px;
   height: 108px;
   margin-right: 28px;
+  margin-left: 150px;
 }
 
 .live__items-image-big {
   width: 142px;
   height: 108px;
-  object-fit: contain;
-  object-position: top;
-  margin-right: 12px;
+  object-fit: cover;
+  margin-right: 28px;
+  margin-left: 70px;
 }
 
 .live__items-text {
@@ -292,4 +301,5 @@
   color: #FFFFFF;
   max-width: 996px;
   margin-top: 34px;
+  margin-bottom: 57px;
 }
