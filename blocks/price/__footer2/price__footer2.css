@@ -10,3 +10,10 @@
   color: #FFFFFF;
   margin-top: 29px;
 }
+@media screen and (max-width: 1000px) {
+  .price__footer2{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}

@@ -1,6 +1,6 @@
 .block6-photo__button {
   margin-top: 52px;
-  background: white;
+  background: #0D3FBF;
   border-radius: 32px;
   border: none;
   width: 284px;
@@ -16,6 +16,7 @@
 
 .block6-photo__button:hover {
   cursor: pointer;
+  background: #5482f6;
 }
 @media screen and (max-width: 750px) {
   .block6-photo__button{

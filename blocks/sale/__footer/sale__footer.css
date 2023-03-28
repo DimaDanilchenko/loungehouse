@@ -9,3 +9,10 @@
   line-height: 16px;
   color: #FFFFFF;
 }
+@media screen and (max-width: 1000px) {
+  .sale__footer{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
