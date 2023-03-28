@@ -368,15 +368,18 @@
   display: flex;
   flex-direction: column;
 }
-.block11__block{
+
+.block11__block {
   display: flex;
   flex-direction: row;
   margin-bottom: 176px;
 }
-.block11__block:last-child{
+
+.block11__block:last-child {
   margin-bottom: 74px;
 }
-.block11__block-image{
+
+.block11__block-image {
   width: 162px;
   height: 162px;
   margin-right: 40px;
@@ -394,4 +397,122 @@
   line-height: 39px;
   color: #FFFFFF;
   padding-top: 48px;
+}
+
+.block12 {
+  background-color: #000000;
+}
+
+.block12__title {
+  margin: 0;
+  padding-top: 42px;
+  padding-bottom: 986px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.block13 {
+  background-color: #000000;
+
+}
+
+.block13__title {
+  margin: 0;
+  padding-top: 34px;
+  margin-bottom: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.block13__text{
+  margin: 0;
+  margin-top: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.block13__text:last-child{
+  padding-bottom: 44px;
+}
+/*~~~~~~~~~~~~ Acordion ~~~~~~~~~~~~~~~*/
+
+.accordion {
+  max-width: calc(100% - 50*2px);
+  margin: 0 auto;
+}
+
+.accordion__heading {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: inherit;
+  border-bottom: solid 1px rgb(172, 168, 168);
+  padding-bottom: 15px;
+  margin-right: 20px;
+  width: calc(100% - 20*2px);
+  padding-top: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+  .accordion__heading {}
+}
+
+.accordion__heading:after,
+.accordion__heading:before {
+  right: .3em;
+  color: rgb(255, 255, 255);
+  content: "+";
+  position: absolute;
+  transition: all 0.1s;
+}
+
+.accordion__checkbox:checked~.accordion__heading:before {
+  opacity: 0;
+  transition: all 0.1s;
+}
+
+.accordion__heading:after {
+  transition: all 0.1s;
+}
+
+.accordion__checkbox:checked~.accordion__heading:after {
+  content: "-";
+}
+
+.accordion__checkbox {
+  display: none;
+  position: absolute;
+  left: -9999em;
+}
+
+.accordion__checkbox:checked~.accordion__content {
+  max-height: 2000px;
+  transition: all 2s;
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  transition: all 0.5s;
 }
